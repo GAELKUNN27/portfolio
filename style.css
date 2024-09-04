@@ -1,0 +1,109 @@
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background: rgb(15,255,26);
+    background: linear-gradient(288deg, rgba(15,255,26,1) 39%, rgba(0,0,0,0) 81%);
+}
+
+/* Cabeçalho e Navegação */
+header {
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+
+    padding: 20px;  
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Seções do Conteúdo */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffffff;
+}
+
+/* Rodapé */
+footer {
+    background-color: #070000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+#section-3 {
+    height: 250px;
+}
